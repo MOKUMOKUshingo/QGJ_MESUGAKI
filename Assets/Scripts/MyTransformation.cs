@@ -26,6 +26,7 @@ public class MyTransformation : MonoBehaviour
             Transforming(_Costume.Length + transform_level);
         }else{
             Debug.Log(transform_level);
+            //Debug.Log(_Costume.Length);
             this.spriteRenderer.sprite = _Costume[transform_level];
         }
         

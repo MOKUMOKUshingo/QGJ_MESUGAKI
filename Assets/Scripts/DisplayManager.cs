@@ -9,7 +9,8 @@ public class DisplayManager : MonoBehaviour
     {
         if(0<=SceneIndex&&SceneIndex<SceneManager.sceneCountInBuildSettings){
             SceneManager.LoadScene(SceneIndex);
-        }else{
+        }
+        else{
             Debug.LogError("Invalid SceneIndex");
         }
     }
